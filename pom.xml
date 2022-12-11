@@ -12,8 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>19.0.1</maven.compiler.source>
-    <maven.compiler.target>19.0.1</maven.compiler.target>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -68,8 +68,13 @@
     <plugins>
       <plugin>
         <groupId>org.projectlombok</groupId>
-        <artifactId>lombok-maven-plugin</artifactId>
-        <version>1.18.20.0</version>
+        <artifactId>lombok-maven-plugin</artifactId><![CDATA[
+        ]]><version>1.18.20.0</version>
+        <executions>
+          <execution>
+            <phase>generate-sources</phase>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
