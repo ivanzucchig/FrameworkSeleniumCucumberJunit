@@ -13,6 +13,6 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber.html", "json:target/cucumber.json",
                 "rerun:target/failed_scenario.txt"}
 )
-public class JunitTestRunner  {
+public class JunitTestRunnerTest {
 
 }

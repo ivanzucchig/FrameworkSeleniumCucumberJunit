@@ -1,7 +1,4 @@
 
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 W
 'src/test/java/features/Checkout.feature,9/f/9f6f52c941024dd97a5006e90fd14cbd515835cc
 Y
@@ -34,5 +31,6 @@ Y
 )src/test/java/utils/TestContextSetup.java,9/1/916ec0ef121ea8ff09c80c0c7db47836f998bc90
 \
 ,src/test/java/features/SearchProduct.feature,0/b/0b9caf7b9bd8a5a9b9f3a9e6c0f861fb60cb0069
-b
-2src/test/java/cucumberOptions/JunitTestRunner.java,9/0/90e81948ea29b178b710ca8bd675356e33672b9d
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
